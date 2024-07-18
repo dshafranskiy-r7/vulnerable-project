@@ -1,0 +1,51 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+factory_boy = "*"
+
+[packages]
+amqp = "*"
+apscheduler = "*"
+asgiref = "*"
+babel = "*"
+billiard = "*"
+boto = "*"
+bugsnag = "*"
+celery = {extras = ["sqs"],version = "*"}
+certifi = "*"
+chardet = "*"
+ddtrace = "*"
+django = "==4.0.6"
+django-appconf = "*"
+django-classy-tags = "*"
+django-compressor = "*"
+django-formset-js-improved = "*"
+django-jquery-js = "*"
+django-npm = "*"
+django-sass-processor = "*"
+djangorestframework = "*"
+factory-boy = "*"
+faker = "*"
+flower = "*"
+future = "*"
+gunicorn = "*"
+humanize = "*"
+idna = "*"
+intervaltree = "*"
+kombu = "*"
+libsass = "*"
+lxml = "*"
+msgpack = "*"
+objectpath = "*"
+prometheus-client = "*"
+requests = "*"
+psycopg2 = "*"
+uvicorn = "*"
+httptools = "*"
+uvloop = "*"
+
+[requires]
+python_version = "3.11"

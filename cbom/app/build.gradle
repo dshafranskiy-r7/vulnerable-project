@@ -1,0 +1,24 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.commons:commons-collections4:4.0' // Known vulnerability in 4.0
+    implementation 'org.springframework:spring-core:5.3.3' // Potential vulnerability (check Snyk advisories)
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+application {
+    mainClass = 'org.example.App'
+}

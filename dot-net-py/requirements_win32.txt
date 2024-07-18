@@ -1,0 +1,4 @@
+# This library is only resolved on windows 
+wmi==1.5.1
+
+# Mac os would only install WMI-1.4.9

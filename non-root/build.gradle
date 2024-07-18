@@ -1,0 +1,14 @@
+plugins {
+  id 'java'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.owasp.dependencycheck:dependency-check-gradle:6.3.1' // Might have vulnerabilities (check Snyk advisories)
+  implementation 'org.apache.xmlbeans:xmlbeans-core:3.1.0' // Known vulnerability (CVE-2016-10033)
+  implementation 'xml-apis:xml-apis:1.0.b2' // Older version with potential issues
+  testImplementation 'org.mockito:mockito-core:3.11.2' // Older version with potential issues
+}

@@ -1,0 +1,3 @@
+diama @ https://artifacts.corp.rapid7.com/nexus/artifactory/cloudsec-python/diama/5.1.4/diama-5.1.4-py3-none-any.whl
+rapid7-vm-console @ git+https://github.com/rapid7/vm-console-client-python.git
+r7insight-python
