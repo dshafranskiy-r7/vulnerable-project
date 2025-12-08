@@ -256,7 +256,7 @@ typeguard==2.13.3
 typing-extensions==4.8.0
 typing-inspect==0.7.1
 uritemplate==3.0.1
-urllib3==1.26.18
+urllib3==2.6.0
 waitress==2.1.2
 webargs==8.4.0
 websocket-client==1.2.1
