@@ -442,7 +442,7 @@ types-requests==2.31.0.1
 types-s3transfer==0.6.0.post5
 types-urllib3==1.26.25.13
 typing-extensions==4.8.0
-urllib3==1.26.18
+urllib3==2.6.3
 werkzeug==3.0.3
 wheel==0.38.4
 xmltodict==0.12.0
