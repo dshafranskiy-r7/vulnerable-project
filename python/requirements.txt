@@ -36,7 +36,7 @@ attrs==23.1.0
 awswrangler==3.4.1
 azure-common==1.1.27
 azure-containerregistry==1.2.0
-azure-core==1.29.5
+azure-core==1.38.0
 azure-identity==1.7.1
 azure-keyvault-certificates==4.5.1
 azure-keyvault-keys==4.6.1
